@@ -1,0 +1,61 @@
+alias c++='g++ -std=c++11 -pthread'
+
+Here is a link for understanding more about Microsoft Azure cloud :-
+https://www.tutorialspoint.com/microsoft_azure/microsoft_azure_quick_guide.htm
+
+anurag3753@gmail.com : Iit_hyderabad
+
+node1 details:-
+user:- azureuser
+pass:- Iit_hyderabad
+ResourceGroup:- terminationVMRG
+Location :- South India
+
+Nodes:- (3 to 10)
+
+ssh azureuser@52.172.46.250
+
+scp lec3.cpp ssh azureuser@52.172.41.134:/home/azureuser
+
+Public IP address/DNS name label
+52.172.46.250
+Public IP address/DNS name label
+104.211.244.226
+
+ssh-copy-id azureuser@104.211.244.226
+
+
+rsa key:-
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPH4l+L90BNSo7kxnMXAXYdZEEuoQIWmkSM9P5VQlA/DHGdPk1cg9S8cOpPy0ggagB7tHP94MsTVo2jEjEHeQZ2rOBHIGBO9PzUG5SmGVz6NiCrbCjtsksRxm30x9I/UWnmhddqvjRMhEPyYsTozgm4N4BvqpK/ZaMz6ipHxubM6UT7LkoIn+yNpwLpkP30odH2/a3O8dJzhoyDJYRxCQh0YNz6TPEu6nq9rbbP73Rm2/qpN+Y6x7JabxBppJPr+PO80F89w+yz3VhT41yg73L0ln/xMa7dALNGyhFDUXGXrpIKlpoNTVLFpJoaG5eI2Vhdg5eBu5qo/OCGsc2OnA/ anurag@anurag-HP-Pavilion-dv6-Notebook-PC
+
+
+Public IP address/DNS name label
+104.211.246.55
+Public IP address/DNS name label
+52.172.9.16
+
+Cluster SSH:-
+
+cssh -l azureser servers -T "Server Farm"
+
+cssh -l azureuser 13.71.114.117 13.71.119.219 13.71.119.125 13.71.118.132 13.71.114.123
+
+parallel-scp -h hosts.txt * /home/azureuser/sk
+
+ssh -v azureuser@104.211.244.226
+scp * azureuser@52.172.43.1:/home/azureuser
+scp * azureuser@52.172.12.60:/home/azureuser
+scp * azureuser@52.172.12.224:/home/azureuser
+
+scp /home/anurag/dinesh/Weight_throwing_TD.cpp ssh azureuser@52.172.41.189:/home/azureuser
+
+Node 5, Node 6,Node 7, node 8 (4, 5, 12)
+
+13.71.115.134
+13.71.116.215
+13.71.119.127
+13.71.114.3
+
+10.0.0.4
+10.0.0.5
+10.0.0.12
